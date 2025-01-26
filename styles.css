@@ -1,0 +1,23 @@
+:root {
+    --main-bg-color: #FFDAB9; 
+    --element-bg-color: #B2E6D4; 
+    --button-color: #FF6F61;
+    --text-color: #708090}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important; 
+}
+html{
+    font-family: monospace;
+    font-size: 20px;
+}
+body{
+    background-color: var(--main-bg-color) !important;
+}
+form{
+    background: var(--element-bg-color);
+}
+textarea{
+    height: 200px;
+}
